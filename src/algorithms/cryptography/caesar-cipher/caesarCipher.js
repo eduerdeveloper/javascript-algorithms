@@ -9,7 +9,7 @@ const englishAlphabet = 'abcdefghijklmnopqrstuvwxyz'.split('');
  * @param {number} shift - i.e. 3
  * @return {Object} - i.e. {'a': 'd', 'b': 'e', 'c': 'f', ..., 'z': 'c'}
  */
-const getCipherMap = (alphabet, shift) =>  {
+const getCipherMap = (alphabet, shift) => {
   return alphabet
     .reduce((charsMap, currentChar, charIndex) => {
       const charsMapClone = { ...charsMap };
