@@ -1,5 +1,5 @@
 // Create alphabet array: ['a', 'b', 'c', ..., 'z'].
-const englishAlphabet = 'abcdefghijklmnopqrstuvwxyz'.split('');
+const englishAlphabet = 'abcdefghijklmnopqrstuvwxyz'.split('') ;
 
 /**
  * Generates a cipher map out of the alphabet.
